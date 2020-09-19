@@ -1,0 +1,55 @@
+title: Gyan Lakhwani
+author: Gyan Lakhwani
+email: hello@gyanl.com
+description: > # this means to ignore newlines until "show_excerpts:"
+  Made with <3 in Mumbai, India
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+permalink: /:title
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%a, %d %b, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: gyanl
+    github:  gyanl
+    # rss: rss
+    dribbble: gyanl
+    # facebook: jekyll
+    # flickr:   jekyll
+    instagram: gyanl
+    linkedin: gyanlakhwani
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+
+theme: jekyll-theme-minimal
